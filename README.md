@@ -33,7 +33,8 @@ However, manually tracking and analyzing every order to predict its completion l
 A data-driven approach that can automatically identify orders at risk of cancellation would allow the business to intervene proactively.
 
 ## Project Goal:
-This project aims to develop a machine learning model to predict the completion status of orders based on transaction data. By accurately identifying the characteristics of completed versus canceled orders, the business can:
+The goal is to develop a predictive model to identify factors influencing order completion, enabling better-targeted marketing strategies using machine learning models (logistic regression, decision tree, random forest), and provide actionable insights. By accurately identifying the characteristics of completed versus canceled orders, the business can:
+
 - [x] Improve Revenue: Focus on high-potential orders, minimizing the loss associated with cancellations.
 - [x] Optimize Resource Allocation: Target promotional efforts towards customers and order types with a higher likelihood of completion.
 - [x] Enhance Customer Experience: Reduce friction points that may lead to order cancellations, improving the overall customer journey.
@@ -89,12 +90,49 @@ Three different classification models were conducted:
              
 	- [x] Independent variables are: Age, Gender, Quantity, Total Sales, etc.
  The models were selected for their reliability and is common for classifying information
- 
-### Project Goal:
-The goal is to develop a predictive model to identify factors influencing order completion, enabling better-targeted marketing strategies using machine learning models (logistic 	regression, decision tree, random forest), and provide actionable insights.
+
+## Making Prediction and Model Assessment
+![image](https://github.com/user-attachments/assets/2370e3a8-0652-4158-9ccc-c9ac8061b4de)
+
+### Logistic Regression:
+has the highest accuracy (0.67477) and recall (0.6747701), suggesting it performs well in overall correct predictions and identifying actual "Completed" orders. However, its AUC (0.494772) is the lowest, indicating weaker class distinction.
+
+### Decision Tree:
+Has the highest precision (0.6482259) and the best AUC (0.504184), meaning it minimizes false positives and is better at distinguishing between "Completed" and "Canceled" orders. Its accuracy (0.6695639) and recall (0.669563) are only slightly lower than Logistic Regression, showing a balanced performance.
+
+### Random Forest:
+Has similar accuracy and recall to Decision Tree but the lowest precision (0.44650502) and F-measure (0.535310233), indicating it has more false positives when predicting "Completed" orders.
+
+- [x] The Decision Tree model is the best choice for this project due to its high precision, best AUC, and balanced performance, making it more reliable for distinguishing between completed and canceled orders.
+
+# ROC Curve AUC - AUC :0.50
+![image](https://github.com/user-attachments/assets/59bb074b-5995-4dfe-8d82-2dbbdf6c5fd0)
+
+# INSIGHT - CONCLUSION
+
+## Key Insights
+
+### Best Model: 
+
+The Decision Tree model outperformed the others, achieving the highest precision and AUC. This model provides a balanced performance in identifying completed orders with fewer false positives, making it the most suitable for this classification task.
+
+### Feature Impact: 
+
+Variables such as Total Sales and Quantity showed significant influence on the likelihood of order completion, and highlighting potential areas for business improvement. For instance, orders with higher quantities may have a higher probability of being completed.
+
+### Business Implications: 
+
+By accurately predicting order status, the business can target resources more effectively, improve customer satisfaction, and reduce cancellations. Insights from the model can inform strategies to enhance customer retention and optimize marketing efforts for likely completed orders.
+
+## Conclusion
+
+The project demonstrates that predictive modeling, particularly using Decision Trees, can provide valuable insights into factors affecting order outcomes. By implementing this model, the business can make data-driven decisions to enhance sales efficiency and customer loyalty. Future analysis can explore additional features and more advanced models to further improve prediction accuracy.
 
 
 
+Sources: https://blog.fabrichq.ai/what-is-order-cancellation-in-ecommerce-and-how-can-you-reduce-it-6076f8e6a0d5
+
+Data source: https://www.kaggle.com/datasets/cameronseamons/electronic-sales-sep2023-sep2024
 
 
 
