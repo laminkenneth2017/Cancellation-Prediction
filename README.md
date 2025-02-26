@@ -1,4 +1,5 @@
 # Cancellation Prediction For Consumer Electronics
+
 ## PROJECT OUTLINE
 1. Background
       - Business Problem
