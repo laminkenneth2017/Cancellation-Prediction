@@ -1,8 +1,6 @@
+# CLIKE HERE TO DOWNLOAD PYTHON/PYSPARK CODE: [Term_Project.ipynb.pdf](https://github.com/user-attachments/files/18992686/Term_Project.ipynb.pdf)
+
 # Cancellation Prediction For Consumer Electronics
-
-
-[Term_Project_Kenneth Lamin.ipynb - Colab1.pdf](https://github.com/user-attachments/files/18992667/Term_Project_Kenneth.Lamin.ipynb.-.Colab1.pdf)
-
 
 ## PROJECT OUTLINE
 1. Background
