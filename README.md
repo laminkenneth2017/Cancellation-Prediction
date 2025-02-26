@@ -1,5 +1,9 @@
 # Cancellation Prediction For Consumer Electronics
 
+
+[Term_Project_Kenneth Lamin.ipynb - Colab1.pdf](https://github.com/user-attachments/files/18992667/Term_Project_Kenneth.Lamin.ipynb.-.Colab1.pdf)
+
+
 ## PROJECT OUTLINE
 1. Background
       - Business Problem
