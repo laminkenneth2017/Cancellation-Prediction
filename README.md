@@ -1,2 +1,2 @@
-# Cancellation-Prediction-For-Consumer-Electronics
+# Cancellation Prediction For Consumer-Electronics
 Machine Learning Model
